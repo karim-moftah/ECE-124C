@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>GYM</title>
+     <link rel="shortcut icon" type="image/x-icon" href="logo1.png">
+    <link href="css/all.min.css" type="text/css" rel="stylesheet" />
+        
+      <link href="normalize.css" type="text/css" rel="stylesheet" />
+<link href="reg.css" type="text/css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width , initial-scale =1 , user-scalable=no" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+    
+</head>
+<body>
+
+    <div class="header">
+         
+            <div class ="logo" >
+                <a href="#" > 
+                    <img src="logo2.png" style="display:inline;float:left;" />
+                </a>
+                <h3>Wolves &nbsp; Academy</h3></div>
+            <div class="contlist">
+         <ul class="list " >
+                <li><a href="index.html" >Home</a> </li>
+                <li><a href="about.html" >About</a> </li>
+                <li><a href="pricing.html" >Prices</a></li>
+                <li><a href="gallery.html"  >Gallery</a></li>
+                <li><a href="regform.html" class="active" >Join Us</a></li>
+               
+            </ul> 
+            <button class="menu">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+
+            </button>
+            </div>
+            
+        </div>
+   
+    <div class="all">
+        <h2>Sign Up</h2>
+         <div class="form">   
+    <form  onsubmit="return valid(this);" action="index.html" >
+      
+        <div class="inname">
+            <i class="fa fa-user lock"></i>
+               <input type="text"  placeholder="First Name" class="na" name="fname" required/>
+            <span>
+                 <i class="fa fa-user lock"></i>
+               <input type="text"  placeholder="Last Name" class="na" name="lname" required/>
+            </span>
+        </div>
+
+          <div class="inname">
+              <i class="fa fa-envelope email"></i>
+                  <input type="email" placeholder="E-mail"  class="tna" name="femail" required/>
+          </div>
+           
+                <div class="inname">
+                    <i class="fa fa-lock lock"></i>
+                     <input type="password" placeholder="Password" id="pass" class="tna"  name="fpass" 
+                         title="password must consist of only 8 characters including capital and small case and digits" required/>
+
+                </div>
+
+          <div class="inname">
+                    <i class="fa fa-lock lock"></i>
+                     <input type="password" placeholder="Comfirm Password"  class="tna"  name="fpass2" required/>
+
+                </div>
+
+         <div class="inname" >
+             <select class="gender" required >
+             
+                 <option>Male</option>
+                 <option>Female</option>
+             </select>
+          
+
+         </div>
+
+        <div class="inname">
+             <input type="tel" placeholder="Type Your Phone Number" class="fna" id="ph" name="fphone"  pattern="(?=.*\d).{11}" title="only 11 numbers " /> 
+             <input type="text" placeholder="Type Your Address"  class="fna" name="fadd" />
+        </div>
+          
+          <div class="inname">
+              <input type="submit"  value="Register"  class="bu"/> 
+          </div>
+
+           
+        
+          
+        
+    
+    </form>
+
+         </div>
+        </div>
+
+     
+       <script src="form.js" ></script>
+</body>
+</html>
